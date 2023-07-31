@@ -1,16 +1,16 @@
 @font-face {
-  font-family: "TestSöhne-Buch";
-  src: url("../fonts/TestSöhneBuch.otf");
+  font-family: "TestSohneBuch";
+  src: url("../fonts/TestSohneBuch.otf");
 }
 
 @font-face {
-  font-family: "TestSöhne-Halbfett";
-  src: url("../fonts/TestSöhneHalbfett.otf");
+  font-family: "TestSohneHalbfett";
+  src: url("../fonts/TestSohneHalbfett.otf");
 }
 
 @font-face {
-  font-family: "TestSöhne-Kräftig";
-  src: url("../fonts/TestSöhneKräftig.otf");
+  font-family: "TestSohneKraftig";
+  src: url("../fonts/TestSohneKraftig.otf");
 }
 
 *, *::before, *::after{
@@ -21,7 +21,7 @@
 
 body{
   color: #404040;
-  font-family: "TestSöhne-Buch";
+  font-family: "TestSohneBuch";
   font-size: 16px;
   line-height: 140%;
   letter-spacing: 0.32px;
@@ -140,7 +140,7 @@ body{
 .services__title {
   padding-bottom: 24px;
   color: #404040;
-  font-family: "TestSöhne-Kräftig";
+  font-family: "TestSohneKraftig";
   font-size: 50px;
   font-style: normal;
   font-weight: 500;
@@ -168,7 +168,7 @@ body{
 .services__card-title {
   margin-bottom: 24px;
   color: #404040;
-  font-family: "TestSöhne-Halbfett";
+  font-family: "TestSohneHalbfett";
   font-size: 26px;
   font-style: normal;
   font-weight: 600;
@@ -189,7 +189,7 @@ body{
 }
 .big-title__text{
   color: #404040;
-  font-family: "TestSöhne-Kräftig";
+  font-family: "TestSohneKraftig";
   font-size: 50px;
   font-style: normal;
   font-weight: 500;
@@ -208,7 +208,7 @@ body{
   position: absolute;
   top:0;
   color: #989898;
-  font-family: "TestSöhne-Halbfett";
+  font-family: "TestSohneHalbfett";
   font-size: 26px;
   font-style: normal;
   font-weight: 600;
@@ -334,7 +334,7 @@ body{
   margin-top: 24px;
   margin-bottom: 16px;
   color: #404040;
-  font-family: "TestSöhne-Halbfett";
+  font-family: "TestSohneHalbfett";
   font-size: 26px;
   font-style: normal;
   font-weight: 600;
@@ -355,7 +355,7 @@ body{
 .blog__title {
   margin-bottom: 72px;
   color:#404040;
-  font-family: "TestSöhne-Kräftig";
+  font-family: "TestSohneKraftig";
   font-size: 50px;
   font-style: normal;
   font-weight: 500;
@@ -383,7 +383,7 @@ body{
 .blog__name {
   margin-bottom: 16px;
   color: #404040;
-  font-family: "TestSöhne-Halbfett";
+  font-family: "TestSohneHalbfett";
   font-size: 24px;
   font-weight: 600;
   line-height: 110%;
@@ -402,7 +402,7 @@ body{
 }
 .focus__title {
   color: #404040;
-  font-family: "TestSöhne-Kräftig";
+  font-family: "TestSohneKraftig";
   font-size: 50px;
   font-style: normal;
   font-weight: 500;
@@ -452,7 +452,7 @@ body{
   padding-top: 72px;
   padding-bottom: 200px;
   color: #FFF;
-  font-family: "TestSöhne-Kräftig";
+  font-family: "TestSohneKraftig";
   font-size: 50px;
   font-style: normal;
   font-weight: 500;
@@ -473,7 +473,7 @@ body{
 .big_cta-card-title {
   padding-bottom: 16px;
   color: #FFF;
-  font-family: "TestSöhne-Halbfett";
+  font-family: "TestSohneHalbfett";
   font-size: 26px;
   font-style: normal;
   font-weight: 600;
@@ -495,7 +495,7 @@ body{
 .info__title {
   margin-bottom: 72px;
   color: #404040;
-  font-family: "TestSöhne-Kräftig";
+  font-family: "TestSohneKraftig";
   font-size: 50px;
   font-style: normal;
   font-weight: 500;
@@ -516,7 +516,7 @@ body{
 .info__item-title {
   margin-bottom: 24px;
   color:#404040;
-  font-family: "TestSöhne-Halbfett";
+  font-family: "TestSohneHalbfett";
   font-size: 26px;
   font-style: normal;
   font-weight: 600;
@@ -551,7 +551,7 @@ body{
   position: absolute;
   top:0;
   color: #989898;
-  font-family: "TestSöhne-Halbfett";
+  font-family: "TestSohneHalbfett";
   font-size: 26px;
   font-style: normal;
   font-weight: 600;
@@ -637,7 +637,7 @@ max-width: 380px;
   position: absolute;
   top:0;
   color: #989898;
-  font-family: "TestSöhne-Halbfett";
+  font-family: "TestSohneHalbfett";
   font-size: 26px;
   font-style: normal;
   font-weight: 600;
@@ -689,7 +689,7 @@ max-width: 380px;
 .banking__card-title{
   margin-bottom: 16px;
   color: #404040;
-  font-family: "TestSöhne-Halbfett";
+  font-family: "TestSohneHalbfett";
   font-size: 26px;
   font-style: normal;
   font-weight: 600;
@@ -749,7 +749,7 @@ max-width: 380px;
 .big-cta__title{
   margin-bottom: 72px;
   color: #404040;
-  font-family: "TestSöhne-Kräftig";
+  font-family: "TestSohneKraftig";
   font-size: 50px;
   font-style: normal;
   font-weight: 500;
@@ -765,7 +765,7 @@ max-width: 380px;
   background-color: #fff;
   padding: 20px 0;
   color: #404040;
-  font-family: "TestSöhne-Halbfett";
+  font-family: "TestSohneHalbfett";
   font-size: 26px;
   font-style: normal;
   font-weight: 600;
@@ -819,7 +819,7 @@ max-width: 380px;
 .footer__menu-title {
   margin-bottom: 24px;
   color: #FFF;
-  font-family: "TestSöhne-Halbfett";
+  font-family: "TestSohneHalbfett";
   font-size: 26px;
   font-style: normal;
   font-weight: 600;
