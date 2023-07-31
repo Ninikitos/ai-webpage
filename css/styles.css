@@ -1,16 +1,16 @@
 @font-face {
   font-family: "TestSöhne-Buch";
-  src: url("fonts/TestSöhne-Buch.otf");
+  src: url("../fonts/TestSöhne-Buch.otf");
 }
 
 @font-face {
   font-family: "TestSöhne-Halbfett";
-  src: url("fonts/TestSöhne-Halbfett.otf");
+  src: url("../fonts/TestSöhne-Halbfett.otf");
 }
 
 @font-face {
   font-family: "TestSöhne-Kräftig";
-  src: url("fonts/TestSöhne-Kräftig.otf");
+  src: url("../fonts/TestSöhne-Kräftig.otf");
 }
 
 *, *::before, *::after{
@@ -41,7 +41,7 @@ body{
   position: relative;
   color:#fff;
   background-color: #000;
-  background-image: url("./img/photos/hero/hero_optimized.jpeg");
+  background-image: url("../img/photos/hero/hero_optimized.jpeg");
   background-size: cover;
   padding-top: 407px;
   padding-bottom: 48px;
@@ -444,7 +444,7 @@ body{
   margin-bottom: 180px;
   color:#fff;
   background-color: #000;
-  background-image: url("/img/photos/cta_background/big_abckground.jpg");
+  background-image: url("../img/photos/cta_background/big_abckground.jpg");
   background-size: cover;
 }
 .big__cta-title {
@@ -787,11 +787,11 @@ max-width: 380px;
   width: 13px;
   height: 13px;
   background-size: cover;
-  background-image: url("/img/icons/arrow-nav-black.svg");
+  background-image: url("../img/icons/arrow-nav-black.svg");
   transition: background-image 0.2s;
 }
 .big-cta__button:hover .big-cta__icon{
-  background-image: url("/img/icons/arrow-nav-white.svg");
+  background-image: url("../img/icons/arrow-nav-white.svg");
 }
 .footer{
   background-color: #121212;
