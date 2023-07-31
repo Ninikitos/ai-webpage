@@ -1,16 +1,16 @@
 @font-face {
   font-family: "TestSöhne-Buch";
-  src: url("../fonts/TestSöhne-Buch.otf");
+  src: url("fonts/TestSöhne-Buch.otf");
 }
 
 @font-face {
   font-family: "TestSöhne-Halbfett";
-  src: url("../fonts/TestSöhne-Halbfett.otf");
+  src: url("fonts/TestSöhne-Halbfett.otf");
 }
 
 @font-face {
   font-family: "TestSöhne-Kräftig";
-  src: url("../fonts/TestSöhne-Kräftig.otf");
+  src: url("fonts/TestSöhne-Kräftig.otf");
 }
 
 *, *::before, *::after{
@@ -41,7 +41,7 @@ body{
   position: relative;
   color:#fff;
   background-color: #000;
-  background-image: url("/img/photos/hero/hero_optimized.jpeg");
+  background-image: url("./img/photos/hero/hero_optimized.jpeg");
   background-size: cover;
   padding-top: 407px;
   padding-bottom: 48px;
