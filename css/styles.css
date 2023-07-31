@@ -1,0 +1,1082 @@
+@font-face {
+  font-family: "TestSöhne-Buch";
+  src: url("../fonts/TestSöhne-Buch.otf");
+}
+
+@font-face {
+  font-family: "TestSöhne-Halbfett";
+  src: url("../fonts/TestSöhne-Halbfett.otf");
+}
+
+@font-face {
+  font-family: "TestSöhne-Kräftig";
+  src: url("../fonts/TestSöhne-Kräftig.otf");
+}
+
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: #404040;
+  font-family: "TestSöhne-Buch";
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.32px;
+}
+.container{
+  max-width: 1257px;
+  width: 100%;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+.cards__wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.hero{
+  position: relative;
+  color:#fff;
+  background-color: #000;
+  background-image: url("/img/photos/hero/hero_optimized.jpeg");
+  background-size: cover;
+  padding-top: 407px;
+  padding-bottom: 48px;
+}
+.nav__background{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.50);
+  backdrop-filter: blur(10px);
+  z-index: 99; 
+}
+
+.nav__menu {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  max-width: 1257px;
+  width: 100%;
+  margin: auto;
+  padding: 0 10px;
+}
+.nav__logo-link {
+  padding: 16px 0;
+}
+.nav__nav-links {
+  margin-left: 77px;
+  display: flex;
+  list-style-type: none;
+}
+.nav__link {
+  margin-right: 50px;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 400;
+}
+.nav__link:hover{
+  border-bottom: 1px solid #fff;
+}
+.nav__cta {
+  text-decoration: none;
+  margin-left: auto;
+  color: #fff;
+  border-bottom: none;
+}
+.nav__cta:hover{
+  cursor: pointer;
+  border-bottom: 1px solid #fff;
+}
+.hero__title {
+  margin: 0;
+  padding-bottom: 48px;
+  font-size: 74px;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: 1.48px;
+}
+.hero__cta {
+  display: flex;
+  align-items: baseline;
+  justify-items: start;
+}
+.hero__cta-btn {
+  margin-right: 50px;
+  padding: 15px 32px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: #fff;
+  transition: background-color 0.2s, color 0.2s;
+}
+.hero__cta-btn:hover{
+  cursor: pointer;
+  color:#000;
+  background-color: #fff;
+}
+.hero__cta-link {
+  text-decoration: none;
+  color:white;
+  border-bottom: none;
+}
+.hero__cta-link:hover{
+  border-bottom: 1px solid #fff;
+}
+.services{
+  padding-top: 180px;
+  padding-bottom: 108px;
+}
+.services__heading {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+}
+.services__title {
+  padding-bottom: 24px;
+  color: #404040;
+  font-family: "TestSöhne-Kräftig";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0.5px;
+}
+.services__sub-title {
+  color: #606060;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.services__list {
+  margin-left: 40%;
+  margin-top: 72px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.services__card {
+  width: 270px;
+  margin-right: 24px;
+}
+.services__card-title {
+  margin-bottom: 24px;
+  color: #404040;
+  font-family: "TestSöhne-Halbfett";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: -0.26px;
+}
+.services__card-text {
+  margin-bottom: 72px;
+  color: #606060;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.32px;
+}
+.big-title{
+  padding-bottom: 180px;
+}
+.big-title__text{
+  color: #404040;
+  font-family: "TestSöhne-Kräftig";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+}
+.ecommerce{
+  position: relative;
+  margin-bottom: 72px;
+}
+.healthcare{
+  position: relative;
+  margin-bottom: 180px;
+}
+.cards__section-title {
+  position: absolute;
+  top:0;
+  color: #989898;
+  font-family: "TestSöhne-Halbfett";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.26px;
+  text-transform: uppercase;
+}
+.cards {
+  margin-left: 30%;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.big-card{
+  width: 100%;
+  position: relative;
+}
+.big-cover{
+  position: relative;
+  max-height: 507px;
+}
+.big-img{
+  width: 100%;
+  height: 507px;
+  object-fit: cover;
+}
+.big-cover::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(0);
+  transition: backdrop-filter 0.5s;
+}
+.big-cover:hover::before {
+  backdrop-filter: blur(10px);
+}
+.small-card{
+  width: 90%;
+  position: relative;
+}
+.small-cover {
+  position: relative;
+  height: 400px;
+}
+.small-cover::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(0);
+  transition: backdrop-filter 0.5s;
+}
+.small-cover:hover::before {
+  backdrop-filter: blur(10px);
+}
+.small-img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.card-tag {
+  padding: 7px 12px;
+  border-radius: 100px;
+  border: 1px solid #FFF;
+  position: absolute;
+  bottom: 18px;
+  z-index: 1;
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: capitalize;
+  transition: background-color 0.2s;
+}
+.card-tag:hover{
+  cursor: pointer;
+  color: #000;
+  background-color: #FFF;
+
+}
+.card-tag_ecommerce1{
+  left: 18px;
+}
+.card-tag_ecommerce2{
+  left: 89px; 
+}
+.card-tag_ecommerce3{
+  left: 184px; 
+}
+.card-tag_ecommerce4{
+  left: 18px;
+}
+.card-tag_ecommerce5{
+  left: 97px; 
+}
+.card-tag_ecommerce6{
+  left: 167px; 
+}
+.card-tag_healthcare1{
+  left: 18px
+}
+.card-tag_healthcare2{
+  left: 114px;
+}
+.card-tag_healthcare3{
+  left: 213px;
+}
+.card-tag_healthcare4{
+  left: 18px;
+}
+.card-tag_healthcare5{
+  left: 98px;
+}
+.card-tag_healthcare6{
+  left: 197px;
+}
+.card-title {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  color: #404040;
+  font-family: "TestSöhne-Halbfett";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: -0.26px;
+}
+.card-text {
+  color: #606060;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.32px;
+}
+.blog {
+  margin-bottom: 180px;
+}
+.blog__title {
+  margin-bottom: 72px;
+  color:#404040;
+  font-family: "TestSöhne-Kräftig";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 50px */
+  letter-spacing: 0.5px;
+}
+.blog__posts {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+.blog__post {
+  width: 400px;
+}
+.blog__post:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.blog__img {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 24px;
+}
+.blog__name {
+  margin-bottom: 16px;
+  color: #404040;
+  font-family: "TestSöhne-Halbfett";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: -0.26px;
+}
+.blog__date {
+  color:#606060;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.32px;
+}
+.focus {
+  margin-bottom: 180px;
+}
+.focus__title {
+  color: #404040;
+  font-family: "TestSöhne-Kräftig";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0.5px;
+}
+.focus__items {
+  list-style: none;
+  margin-top: 72px;
+  margin-left: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.focus__item {
+  display: flex;
+}
+.focus__item:not(:last-child){
+  margin-bottom: 48px;
+}
+.focus__sub-title{
+  width: 180px;
+  color: #606060;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.32px;
+}
+.focus__text {
+  width: 400px;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.32px;
+}
+.big__cta{
+  margin-bottom: 180px;
+  color:#fff;
+  background-color: #000;
+  background-image: url("/img/photos/cta_background/big_abckground.jpg");
+  background-size: cover;
+}
+.big__cta-title {
+  margin-left: 30%;
+  padding-top: 72px;
+  padding-bottom: 200px;
+  color: #FFF;
+  font-family: "TestSöhne-Kräftig";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+}
+.big__cta-cards {
+  margin-left: 30%;
+  list-style: none;
+  display: flex;
+}
+.big__cta-card {
+  width:180px;
+}
+.big__cta-card:not(:last-child){
+  margin-right: 40px;
+}
+.big_cta-card-title {
+  padding-bottom: 16px;
+  color: #FFF;
+  font-family: "TestSöhne-Halbfett";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: -0.26px;
+}
+.big__cta-text {
+  padding-bottom: 72px;
+  color:  #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.32px;
+}
+.info {
+  margin-bottom: 180px;
+}
+.info__title {
+  margin-bottom: 72px;
+  color: #404040;
+  font-family: "TestSöhne-Kräftig";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0.5px;
+}
+.info__items {
+  list-style: none;
+  display: flex;
+}
+.info__item {
+  display: flex;
+  flex-direction: column;
+}
+.info__item:not(:last-child){
+  margin-right: 40px;
+}
+.info__item-title {
+  margin-bottom: 24px;
+  color:#404040;
+  font-family: "TestSöhne-Halbfett";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: -0.26px;
+}
+.info__text {
+  margin-bottom: 16px;
+  color:#606060;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.32px;
+}
+.info__link {
+  color: #404040;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  text-decoration-line: underline;
+}
+.info__link:hover{
+  cursor: pointer;
+}
+.marketing{
+  position: relative;
+  margin-bottom: 180px;
+}
+.marketing__section-title{
+  position: absolute;
+  top:0;
+  color: #989898;
+  font-family: "TestSöhne-Halbfett";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -0.26px;
+  text-transform: uppercase;
+}
+.marketing__cards{
+  margin-left: 30%;
+  list-style: none;
+  display: flex;
+  overflow-x: auto;
+}
+
+.marketing__cards::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #d8d8d8;
+  width: 50px;
+}
+
+.marketing__cards::-webkit-scrollbar {
+  width: 10px;
+  height: 3px;
+  background-color: #404040;
+}
+
+.marketing__cards::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #555;
+}
+.marketing__card{
+  width: 100%;
+max-width: 380px;
+}
+.marketing__card:not(:last-child){
+  margin-right: 40px;
+}
+.marketing__card-cover{
+  position: relative;
+
+}
+.card-tag-marketing1{
+  left: 18px;
+  bottom: 25px;
+}
+.card-tag-marketing2{
+  left: 123px;
+  bottom: 25px;
+}
+.card-tag-marketing3{
+  left: 229px;
+  bottom: 25px;
+}
+.card-tag-marketing4{
+  left: 18px;
+  bottom: 25px;
+}
+.card-tag-marketing5{
+  left: 154px;
+  bottom: 25px;
+}
+.card-tag-marketing6{
+  left: 284px;
+  bottom: 25px;
+}
+.marketing__img{
+  object-fit: cover;
+}
+.marketing-title{
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+.marketing-text{
+  padding-bottom: 48px;
+}
+.banking{
+  position: relative;
+  margin-bottom: 180px;
+}
+.banking__section-title {
+  position: absolute;
+  top:0;
+  color: #989898;
+  font-family: "TestSöhne-Halbfett";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.26px;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+.banking__cards {
+  margin-left: 30%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.banking__card {
+  display: flex;
+  gap: 40px;
+}
+.banking__card:not(:last-child){
+  margin-bottom: 72px;
+}
+.banking__card-cover {
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  background-color: #989898;
+}
+.banking__img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.banking__card-cover::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(0);
+  transition: backdrop-filter 0.5s;
+}
+.banking__card-cover:hover::before{
+  backdrop-filter: blur(5px);
+}
+.banking__content{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.banking__card-title{
+  margin-bottom: 16px;
+  color: #404040;
+  font-family: "TestSöhne-Halbfett";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: -0.26px;
+}
+.banking__card-text:not(:last-child){
+  margin-bottom: 16px;
+}
+.banking__card-text {
+  color: #606060;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.32px;
+}
+.card-tag-banking1 {
+  left: 18px;
+  bottom: 18px;
+}
+.card-tag-banking2 {
+  left: 116px;
+  bottom: 18px;
+}
+.card-tag-banking3 {
+  left: 222px;
+  bottom: 18px;
+}
+.card-tag-banking4 {
+  left: 154px;
+  bottom: 18px;
+}
+.card-tag-banking5 {
+  left: 228px;
+  bottom: 18px;
+}
+.card-tag-banking6{
+  left: 89px;
+  bottom: 18px;
+}
+.card-tag-banking7{
+  left: 184px;
+  bottom: 18px;
+}
+.education{
+  position: relative;
+  margin-bottom: 72px;
+}
+.adtech{
+  position: relative;
+  margin-bottom: 180px;
+}
+.big-cta{
+  margin-bottom: 72px;
+}
+.big-cta__title{
+  margin-bottom: 72px;
+  color: #404040;
+  font-family: "TestSöhne-Kräftig";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0.5px;
+}
+.big-cta__button{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  cursor: pointer;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px 0;
+  color: #404040;
+  font-family: "TestSöhne-Halbfett";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: -0.26px;
+  border: 1px solid #404040;
+  transition: background-color 0.2s, color 0.2s;
+}
+.big-cta__button:hover{
+  background-color: #000;
+  color: #fff;
+}
+.big-cta__button-text{
+  display: block;
+}
+.big-cta__icon{
+  margin-left: 5px;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-size: cover;
+  background-image: url("/img/icons/arrow-nav-black.svg");
+  transition: background-image 0.2s;
+}
+.big-cta__button:hover .big-cta__icon{
+  background-image: url("/img/icons/arrow-nav-white.svg");
+}
+.footer{
+  background-color: #121212;
+  padding: 72px 0;
+}
+.footer__wrapper{
+  display: flex;
+  border-bottom: 1px solid rgb(157, 157, 157);
+  padding-bottom: 72px;
+}
+.footer__logo{
+  max-width: 70px;
+  max-height: 70px;
+  margin-right: 260px;
+}
+.footer__menu-items {
+  list-style: none;
+  display: flex;
+}
+.footer__menu-items:not(:last-child){
+  margin-right: 150px;
+}
+.footer__menu-item {
+}
+.footer__menu-title {
+  margin-bottom: 24px;
+  color: #FFF;
+  font-family: "TestSöhne-Halbfett";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: -0.26px;
+}
+.footer__links {
+  list-style: none;
+}
+
+.footer__link:not(:last-child) {
+  margin-bottom: 8px;
+}
+.link {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.32px;
+}
+.link:hover{
+  border-bottom: 1px solid white;
+}
+.footer__social-links{
+  padding-top: 24px;
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1280px) {
+  .nav__menu{
+    max-width: 1000px;
+  }
+  .container{
+    max-width: 1000px;
+  }
+  .card-cover-left{
+    width: 100%;
+    height: 407px;
+  }
+  .card-cover-right{
+    width: 100%;
+    height: 300px;
+  }
+  .cards__section-title{
+
+  }
+}
+@media screen and (max-width: 998px) {
+  .nav__menu{
+    padding: 0 20px;
+  }
+  .container{
+    padding: 0 20px;
+  }
+  .hero__title{
+    font-size: 48px;
+  }
+  .services__heading{
+    margin-left: 0;
+  }
+  .services__sub-title{
+    max-width: 500px;
+    font-size: 18px;
+  }
+  .services__list{
+    margin-left: 0;
+  }
+  .card-cover-left{
+    width: 100%;
+    height: 307px;
+  }
+  .card-cover-right{
+    width: 100%;
+    height: 200px;
+  }
+  .cards__section-title{
+    font-size: 16px;
+  }
+  .focus__items{
+    margin-left: 30%;
+  }
+  .info__items{
+    margin-left: 30%;
+    flex-wrap: wrap;
+  }
+  .info__item{
+    margin-right: 40px;
+  }
+  .info__item:not(:last-child){
+    margin-bottom: 48px;
+  }
+  .marketing__section-title{
+    font-size: 16px;
+  }
+  .banking__section-title{
+    font-size: 16px;
+  }
+  .banking__card{
+    flex-direction: column;
+    max-width: 510px;
+    gap: 24px;
+  }
+  .blog__name{
+    font-size: 18px;
+  }
+  .footer__logo{
+    max-width: 45px;
+    max-height: 45px;
+  }
+  .footer__menu-title{
+    font-size: 21px;
+  }
+  .footer__wrapper{
+    padding-bottom: 24px;
+  }
+  .footer__logo{
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 930px) {
+  .card-tag_ecommerce3{
+    left: 18px;
+    bottom: 49px;
+  }
+  .card-tag_ecommerce6{
+    left: 18px;
+    bottom: 49px;
+  }
+  .card-tag_healthcare6{
+    left: 18px;
+    bottom: 49px;
+  }
+  .card-tag_healthcare3{
+    left: 18px;
+    bottom: 49px;
+  }
+  .card-tag-marketing3{
+    left: 18px;
+    bottom: 56px;
+  }
+  .card-tag-marketing6{
+    left: 18px;
+    bottom: 56px;
+  }
+  .card-tag-banking3{
+    left: 18px;
+    bottom: 49px;
+  }
+  .card-tag-banking5{
+    left: 18px;
+    bottom: 49px;
+  }
+  .card-tag-banking7{
+    left: 18px;
+    bottom: 49px;
+  }
+  .footer__menu-items:not(:last-child) {
+    margin-right: 50px;
+  }
+  .footer__wrapper{
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services {
+    padding-top: 90px;
+    padding-bottom: 18px;
+  }
+  .services__title{
+    font-size: 40px;
+  }
+  .services__card-title{
+    font-size: 18px;
+  }
+  .big-title__text{
+    font-size: 40px;
+  }
+  .big-title {
+    padding-bottom: 90px;
+  }
+  .ecommerce{
+    margin-bottom: 48px;
+  }
+  .healthcare {
+    margin-bottom: 90px;
+  }
+  .blog__title{
+    font-size: 40px;
+  }
+  .blog__title{
+    margin-bottom: 48px;
+  }
+  .blog__posts{
+    flex-direction: column;
+  }
+  .blog__post{
+    width: 100%;
+  }
+  .blog{
+    margin-bottom: 90px;
+  }
+  .focus{
+    margin-bottom: 90px;
+  }
+  .focus__title{
+    font-size: 40px;
+  }
+  .focus__items {
+    margin-left: 0;
+  }
+  .big__cta{
+    margin-bottom: 90px;
+  }
+  .big__cta-title{
+    font-size: 40px;
+    margin-left: 0;
+    padding-bottom: 120px
+  }
+  .big__cta-cards{
+    margin-left: 0;
+  }
+  .info{
+    margin-bottom: 90px;
+  }
+  .info__title{
+    font-size: 40px;
+  }
+  .info__items{
+    margin-left: 0;
+    max-width: 70%;
+  }
+  .info__item-title{
+    font-size: 18px;
+  }
+  .marketing{
+    margin-bottom: 90px;
+  }
+  .marketing__img{
+    width: 250px;
+  }
+  .marketing__card:not(:last-child) {
+    margin-right: 20px;
+  }
+  .banking{
+    margin-bottom: 90px;
+  }
+  .adtech{
+    margin-bottom: 90px;
+  }
+  .footer{
+    padding-bottom: 42px;
+  }
+}
+
