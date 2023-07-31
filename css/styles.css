@@ -94,6 +94,9 @@ body{
   cursor: pointer;
   border-bottom: 1px solid #fff;
 }
+.nav__hamburger{
+  display: none;
+}
 .hero__title {
   margin: 0;
   padding-bottom: 48px;
@@ -868,8 +871,8 @@ max-width: 380px;
     width: 100%;
     height: 300px;
   }
-  .cards__section-title{
-
+  .focus__item{
+    gap: 15px;
   }
 }
 @media screen and (max-width: 998px) {
@@ -1077,6 +1080,106 @@ max-width: 380px;
   }
   .footer{
     padding-bottom: 42px;
+  }
+}
+@media screen and (max-width: 629px) {
+  .services__card{
+    width: 100%;
+  }
+
+}
+@media screen and (max-width: 571px) {
+  .nav__hamburger{
+    display: block;
+    margin-left: auto;
+  }
+  .nav__nav-links-mobile{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    transform: translateY(-500px);
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    height: 50vh;
+    width: 100vw;
+    background-color: #121212;
+  }
+  .nav__hamburger:hover{
+    cursor: pointer;
+  }
+  .show-menu{
+    transform: translateY(0);
+  }
+  .mobile-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    transform: translateY(-1000px);
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, .3);
+    height: 100vh;
+    width: 100vw;
+  }
+  .show-background{
+    transform: translateY(0);
+  }
+  .nav__nav-link-mobile{
+    padding-left: 40px;
+    margin: 50px 0;
+    font-size: 50px;
+  }
+  .nav__link-mobile{
+    font-size: 50px;
+    text-decoration: none;
+    color: #FFF;
+  }
+  .nav__menu-text{
+    margin-bottom: 32px;
+    font-size: 50px;
+    text-align: center;
+  }
+  .nav__nav-links{
+    display: none;
+  }
+  .nav__cta{
+    display: none;
+  }
+  .ham__item{
+    height: 2px;
+    width: 20px;
+    margin-bottom: 5px;
+    background-color: #fff;
+  }
+  .services__card-title{
+    margin-bottom: 16px;
+  }
+  .services__card-text{
+    margin-bottom: 48px;
+  }
+  .cards{
+    padding-top: 30px;
+    margin-left: 0;
+  }
+  .focus__item{
+    flex-direction: column;
+  }
+  .focus__sub-title{
+    padding-bottom: 16px;
+  }
+  .marketing__cards{
+    margin-left: 0;
+    padding-top: 60px;
+  }
+  .banking__cards{
+    margin-left: 0;
+    padding-top: 60px;
+  }
+  .big-cta__title{
+    font-size: 36px;
   }
 }
 
