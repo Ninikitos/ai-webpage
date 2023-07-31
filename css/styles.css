@@ -1,16 +1,16 @@
 @font-face {
   font-family: "TestSöhne-Buch";
-  src: url("../fonts/TestSöhne-Buch.otf");
+  src: url("/fonts/TestSöhne-Buch.otf");
 }
 
 @font-face {
   font-family: "TestSöhne-Halbfett";
-  src: url("../fonts/TestSöhne-Halbfett.otf");
+  src: url("/fonts/TestSöhne-Halbfett.otf");
 }
 
 @font-face {
   font-family: "TestSöhne-Kräftig";
-  src: url("../fonts/TestSöhne-Kräftig.otf");
+  src: url("/fonts/TestSöhne-Kräftig.otf");
 }
 
 *, *::before, *::after{
