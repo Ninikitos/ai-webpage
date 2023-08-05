@@ -46,6 +46,9 @@ body{
   padding-top: 407px;
   padding-bottom: 48px;
 }
+.nav__nav-links-mobile{
+  display: none;
+}
 .nav__background{
   position: absolute;
   top:0;
