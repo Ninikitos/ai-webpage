@@ -1,14 +1,13 @@
 const mobileMenu = document.querySelector(".nav__nav-links-mobile");
 const menu = document.querySelector(".nav__hamburger");
-const menuBackground = document.querySelector(".mobile-background");
+const menuIconClose = document.querySelector(".nav__nav-icon-close");
+
 
 menu.addEventListener('click', () => {
   mobileMenu.classList.add("show-menu");
-  menuBackground.classList.add("show-background");
 })
 
-menuBackground.addEventListener('click', () => {
+menuIconClose.addEventListener('click', () => {
   mobileMenu.classList.remove("show-menu");
-  menuBackground.classList.remove("show-background");
 })
 

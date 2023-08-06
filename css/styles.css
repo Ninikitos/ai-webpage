@@ -997,6 +997,12 @@ max-width: 380px;
 }
 
 @media screen and (max-width: 768px) {
+  .cards{
+    flex-direction: column;
+  }
+  .small-card{
+    width: 100%;
+  }
   .services {
     padding-top: 90px;
     padding-bottom: 18px;
@@ -1012,6 +1018,9 @@ max-width: 380px;
   }
   .big-title {
     padding-bottom: 90px;
+  }
+  .focus__text{
+    width: 100%;
   }
   .ecommerce{
     margin-bottom: 48px;
@@ -1090,9 +1099,15 @@ max-width: 380px;
   .services__card{
     width: 100%;
   }
-
+  .info__items{
+   max-width: 100%; 
+  }
 }
 @media screen and (max-width: 571px) {
+  .hero{
+    height: 90vh;
+    padding-top: 50vh;
+  }
   .nav__hamburger{
     display: block;
     margin-left: auto;
@@ -1102,12 +1117,12 @@ max-width: 380px;
     top: 0;
     left: 0;
     z-index: 4;
-    transform: translateY(-500px);
+    transform: translateY(-1000px);
     transition: 0.5s;
     display: flex;
     flex-direction: column;
     list-style: none;
-    height: 50vh;
+    height: 100vh;
     width: 100vw;
     background-color: #121212;
   }
@@ -1115,20 +1130,6 @@ max-width: 380px;
     cursor: pointer;
   }
   .show-menu{
-    transform: translateY(0);
-  }
-  .mobile-background{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 3;
-    transform: translateY(-1000px);
-    transition: 0.5s;
-    background-color: rgba(0, 0, 0, .3);
-    height: 100vh;
-    width: 100vw;
-  }
-  .show-background{
     transform: translateY(0);
   }
   .nav__nav-link-mobile{
@@ -1158,6 +1159,17 @@ max-width: 380px;
     margin-bottom: 5px;
     background-color: #fff;
   }
+  .nav__nav-close{
+    position: relative;
+  }
+  .nav__nav-icon-close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+  .nav__nav-icon-close:hover{
+    cursor: pointer;
+  }
   .services__card-title{
     margin-bottom: 16px;
   }
@@ -1182,8 +1194,18 @@ max-width: 380px;
     margin-left: 0;
     padding-top: 60px;
   }
+  .big__cta-cards{
+    flex-wrap: wrap;
+  }
   .big-cta__title{
     font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .big__cta-cards{
+    flex-wrap: nowrap;
+    flex-direction: column;
   }
 }
 
