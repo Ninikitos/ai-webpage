@@ -38,12 +38,13 @@ body{
   justify-content: space-between;
 }
 .hero{
+  height: 100vh;
   position: relative;
   color:#fff;
   background-color: #000;
   background-image: url("../img/photos/hero/hero_optimized.jpeg");
   background-size: cover;
-  padding-top: 407px;
+  padding-top: 60vh;
   padding-bottom: 48px;
 }
 .nav__nav-links-mobile{
