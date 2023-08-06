@@ -1202,6 +1202,12 @@ max-width: 380px;
 }
 
 @media screen and (max-width: 480px) {
+  .container{
+    margin-bottom: 72px;
+  }
+  .cards{
+    gap: 40px;
+  }
   .hero {
     height: 80vh;
     padding-top: 30vh;
@@ -1227,9 +1233,6 @@ max-width: 380px;
   }
   .big-cta__button-text{
     font-size: 18px;
-  }
-  .container{
-    margin-bottom: 72px;
   }
   .card-title{
     font-family: "TestSohneKraftig";
