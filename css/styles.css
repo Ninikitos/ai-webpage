@@ -1213,6 +1213,51 @@ max-width: 380px;
     flex-wrap: nowrap;
     flex-direction: column;
   }
+  .big-cta__title{
+    margin-bottom: 32px;
+  }
+  .big-cta__button-text{
+    font-size: 18px;
+  }
+  .container{
+    margin-bottom: 72px;
+  }
+  .services{
+    padding: 0;
+    padding-top: 48px;
+  }
+  .services__card{
+    margin-right: 0;
+  }
+  .services__card-text{
+    margin: 0;
+  }
+  .services__card:not(:last-child){
+    margin-bottom: 48px;
+  }
+  .focus__items {
+    margin-top: 0;
+  }
+  .focus__title {
+    padding-bottom: 48px;
+  }
+  .big-title {
+    padding: 0;
+    margin-bottom: 72px;
+  }
+  /* .marketing {
+    margin-bottom: 72px;
+  }
+  .banking {
+    margin-bottom: 72px;
+  }
+  .big-title {
+    padding: 0;
+    margin-bottom: 72px;
+  }
+  .ad-tech{
+    margin-bottom: 72px;
+  } */
   .footer__wrapper{
     flex-direction: column;
     align-items: center;
@@ -1233,4 +1278,3 @@ max-width: 380px;
     align-items: center;
   }
 }
-
