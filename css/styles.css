@@ -45,7 +45,6 @@ body{
   background-image: url("../img/photos/hero/hero_optimized.jpeg");
   background-size: cover;
   padding-top: 60vh;
-  padding-bottom: 48px;
 }
 .nav__nav-links-mobile{
   display: none;
@@ -1203,9 +1202,35 @@ max-width: 380px;
 }
 
 @media screen and (max-width: 480px) {
+  .hero__cta-link{
+    font-size: 14px ;
+  }
+  .hero__cta-btn{
+    padding: 11px 28px;
+    font-size: 14px;
+  }
   .big__cta-cards{
     flex-wrap: nowrap;
     flex-direction: column;
+  }
+  .footer__wrapper{
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__menu-items{
+    text-align: center;
+  }
+  .footer__menu-items:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .footer__logo{
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  .footer__social-links{
+    flex-direction: column;
+    align-items: center;
   }
 }
 
