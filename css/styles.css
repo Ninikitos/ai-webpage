@@ -1202,12 +1202,21 @@ max-width: 380px;
 }
 
 @media screen and (max-width: 480px) {
+  .hero {
+    height: 80vh;
+    padding-top: 30vh;
+  }
+  .hero__cta {
+    flex-direction: column;
+    gap: 16px;
+  }
   .hero__cta-link{
     font-size: 14px ;
   }
   .hero__cta-btn{
     padding: 11px 28px;
     font-size: 14px;
+    margin-right: 0;
   }
   .big__cta-cards{
     flex-wrap: nowrap;
